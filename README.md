@@ -9,7 +9,8 @@
 ### [ ] en - english
 ### [ ] ukr - ukrainian
 ## Your language doesn't listed? Not a problem! Create you own lang_{lang}.yml and choose is in the config.yml!
-
+# Dependencies:
+Placeholder API - https://www.spigotmc.org/resources/placeholderapi.6245/
 # Commands:
 
 ```yml
