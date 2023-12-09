@@ -1,0 +1,46 @@
+
+structure:
+  # inventory height
+  height: 3
+  # each row has to count 9 chars
+  rows:
+    - "#########"
+    - "##1#2#3##"
+    - "#########"
+
+items:
+  '#':
+    type: fill
+    material: gray_stained_glass_pane
+    name: '§f[§bV§6Bottle§cXP§f]'
+
+
+  '1':
+    type: bottle
+    # level that will be stored
+    level: 15
+    # item name in GUI and when a player take it
+    name: '§a15lvl'
+    # item lore in GUI
+    lore: "§bThat bottle stores §615lvl§b (click to get)"
+    # item lore when player take it
+    final-lore: "§bThat bottle stores §615lvl§b"
+    permission: com.viznyuk.vbottlexp.create.15
+
+  '2':
+    type: bottle
+    level: 25
+    name: '§b25lvl'
+    lore: "§bThat bottle stores §625lvl§b (click to get)"
+    final-lore: "§bThat bottle stores §625lvl§b"
+    permission: com.viznyuk.vbottlexp.create.25
+
+
+  '3':
+    type: bottle
+    level: 30
+    name: '§c30lvl'
+    lore: "§bThat bottle stores §630lvl§b (click to get)"
+    final-lore: "§bThat bottle stores §630lvl§b"
+    permission: com.viznyuk.vbottlexp.create.30
+

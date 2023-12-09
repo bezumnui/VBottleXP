@@ -1,0 +1,8 @@
+# plugin config
+
+lang: en
+prefix: '§f[§bV§6Bottle§cXP§f] '
+ui-title: '§bV§6Bottle§cXP'
+
+
+debug: false

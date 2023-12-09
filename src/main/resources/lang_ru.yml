@@ -1,0 +1,6 @@
+not-enough-xp: "&cНедостаточно опыта!"
+# Important: players still can use other entities to use bottle
+no-perm-use: "&cВы не можете использовать эту бутылочку!"
+no-perm-command: "&cУ вас нет прав на использование команды!"
+no-perm-create: "&cВы не можете создать эту бутылочку!"
+

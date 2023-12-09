@@ -1,0 +1,29 @@
+name: VBottleXP
+version: '${project.version}'
+main: com.viznyuk.minecraft.vbottlexp.VBottleXP
+api-version: '1.20'
+
+commands:
+  xpbottle:
+    usage: /vxp
+    permission: com.viznyuk.vbottlexp
+    aliases:
+      - xpbottle
+      - vxpbottle
+
+permissions:
+  com.viznyuk.vbottlexp.use:
+    default: false
+  com.viznyuk.vbottlexp.command:
+    default: op
+  com.viznyuk.vbottlexp.create:
+    default: op
+
+  com.viznyuk.vbottlexp:
+    default: true
+    children:
+      com.viznyuk.vbottlexp.use: false
+      com.viznyuk.vbottlexp.command: false
+      com.viznyuk.vbottlexp.create: false
+      com.viznyuk.vbottlexp.create.*: false
+

@@ -1,0 +1,6 @@
+not-enough-xp: "You haven't enough xp"
+# Important: players still can use other entities to use bottle
+no-perm-use: "&cYou can't use the bottle"
+no-perm-command: "&cYou can't use that command!"
+no-perm-create: "&cYou can't create that bottle!"
+
