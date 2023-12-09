@@ -14,7 +14,7 @@ Placeholder API - https://www.spigotmc.org/resources/placeholderapi.6245/
 # Commands:
 
 ```yml
-    xpbottle:
+    vxp:
       usage: /vxp
       aliases:
         - xpbottle
